@@ -4,10 +4,10 @@
 #include "runtime-headers.h"
 #include "cl/C@Admin.h"
 inline bool f$lambda$ua4b4090b8f936f2c_0(class_instance<C$Admin> const &v$a) noexcept ;
-//source = [initial.php]
-//86:   $validated_accounts = array_filter($accounts, function (Admin $a) {
+//source = [solution.php]
+//91:   $validated_accounts = array_filter($accounts, function (Admin $a) {
 bool f$lambda$ua4b4090b8f936f2c_0(class_instance<C$Admin> const &v$a) noexcept  {
-//87:     return $a->is_valid;
+//92:     return $a->is_valid;
   return v$a->$is_valid;
 }
 

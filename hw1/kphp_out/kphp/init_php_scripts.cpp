@@ -1,8 +1,8 @@
-//crc64:13390965aaf09e61
+//crc64:616880516018bedd
 //crc64_with_comments:0000000000000000
 #include "runtime-headers.h"
 #include "server/php-init-scripts.h"
-#include "o_64/src_initial96377ddff2b9434b.h"
+#include "o_74/src_solutionc873c765ff28a8b5.h"
 
 void global_init_php_scripts() noexcept ;
 void init_php_scripts() noexcept ;
@@ -22,20 +22,20 @@ void global_init_php_scripts()  noexcept {
   const_vars_init();
 }
 
-void f$src_initial96377ddff2b9434b$run()  noexcept {
-  TRY_CALL_VOID (void, f$src_initial96377ddff2b9434b());
+void f$src_solutionc873c765ff28a8b5$run()  noexcept {
+  TRY_CALL_VOID (void, f$src_solutionc873c765ff28a8b5());
   finish (0, false);
 }
 
-void f$src_initial96377ddff2b9434b$global_reset()  noexcept {
-  void f$src_initial96377ddff2b9434b$global_vars_reset();
-  f$src_initial96377ddff2b9434b$global_vars_reset();
+void f$src_solutionc873c765ff28a8b5$global_reset()  noexcept {
+  void f$src_solutionc873c765ff28a8b5$global_vars_reset();
+  f$src_solutionc873c765ff28a8b5$global_vars_reset();
 }
 
 void init_php_scripts()  noexcept {
   void init_shape_demangler();
   init_shape_demangler();
 
-  f$src_initial96377ddff2b9434b$global_reset();
-  set_script (f$src_initial96377ddff2b9434b$run, f$src_initial96377ddff2b9434b$global_reset);
+  f$src_solutionc873c765ff28a8b5$global_reset();
+  set_script (f$src_solutionc873c765ff28a8b5$run, f$src_solutionc873c765ff28a8b5$global_reset);
 }
