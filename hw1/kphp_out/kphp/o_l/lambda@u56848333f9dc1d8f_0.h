@@ -4,10 +4,10 @@
 #include "runtime-headers.h"
 #include "cl/C@Admin.h"
 inline string f$lambda$u56848333f9dc1d8f_0(class_instance<C$Admin> const &v$a) noexcept ;
-//source = [initial.php]
-//59:   return array_map(function (Admin $a) {
+//source = [solution.php]
+//63:   return array_map(function (Admin $a) {
 string f$lambda$u56848333f9dc1d8f_0(class_instance<C$Admin> const &v$a) noexcept  {
-//60:     return $a->name;
+//64:     return $a->name;
   return v$a->$name;
 }
 
